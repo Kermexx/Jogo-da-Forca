@@ -140,7 +140,7 @@ def imprime_mensagem_abertura():
     print("*********************************")
 
 def carrega_palavra_secreta():
-    arquivo = open("palavras.txt", "r")
+    arquivo = open("Lista.txt", "r")
     palavras = []
 
     for linha in arquivo:
